@@ -1,0 +1,35 @@
+uuid: b07941b4-196b-4eea-b55a-70208fe78966
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.page_modulable.field_layout
+    - node.type.page_modulable
+  module:
+    - layout_paragraphs
+    - user
+id: node.page_modulable.default
+targetEntityType: node
+bundle: page_modulable
+mode: default
+content:
+  field_layout:
+    type: layout_paragraphs_builder
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 1
+      empty_message: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

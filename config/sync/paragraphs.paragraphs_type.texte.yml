@@ -1,0 +1,12 @@
+uuid: a1d60d50-8bbb-4a4b-8a8a-c7758751c0a1
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:86ef2c9e-5109-4bbe-b1fa-419ad6c8f8aa'
+id: texte
+label: Texte
+icon_uuid: 86ef2c9e-5109-4bbe-b1fa-419ad6c8f8aa
+icon_default: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADTSURBVHgB7dpLDoIwFIXho9G9Sdz/BoR9YB1KDG3tw3r4v+ROSCA9Ce0d9EoAABzeNdRFg7uHWkKtg9UcalIDs6R10Hoo0UnpVo0tKctZB0NgdzVaQ+o5EDsDan1nF7/0juXDs1n9dVvHpPde/Op9t4z3Y720yzpy+nCpWnu4CHvYHYHdEdgdgd0R2B2B3RHYHYHdEdgdgd0R2B2B3RHYHYEr2k79xDSfymmtZOoneSonV8sbu9KpnyZrYw9XtOh7v5gsKLa9qc/ZvzmTBQAA4E88ATXTjXrx9V9bAAAAAElFTkSuQmCC'
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,20 @@
+uuid: 5f182210-0bcb-4e9f-b72d-c97ab5a5ef47
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texte.field_texte
+    - paragraphs.paragraphs_type.texte
+id: paragraph.texte.default
+targetEntityType: paragraph
+bundle: texte
+mode: default
+content:
+  field_texte:
+    type: basic_string
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

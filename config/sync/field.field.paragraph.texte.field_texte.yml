@@ -1,0 +1,19 @@
+uuid: 8a7f4de4-eeaf-41c0-a6d1-fe3d10e18f43
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte
+    - paragraphs.paragraphs_type.texte
+id: paragraph.texte.field_texte
+field_name: field_texte
+entity_type: paragraph
+bundle: texte
+label: Texte
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

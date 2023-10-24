@@ -1,0 +1,12 @@
+uuid: ee6323e9-d44f-41d9-a154-76a6874cc332
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:0ee32f53-c32c-4cd6-a1fa-91fde3049adc'
+id: image
+label: Image
+icon_uuid: 0ee32f53-c32c-4cd6-a1fa-91fde3049adc
+icon_default: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG1SURBVHgB7Zo9TsNAEIVfEC0goIWakquAgFyCA1DaFByDA4AiUVPQ0tJCQwEtRAocwMwoRoKwa+9k117vMp/0mngSzZeM1/EPoCiKoiiKovTLLmVC+aBUiYV7vqHsQSD7DkRv3DfT2qWVCeI3GyrXi3IjgzCPxBrygF02fr5gEq6QF78cV/DPSE34lXJMWa9zSHmCJ0NdgF4oW4Z+N+tttvclK3zU0PMJHIVTWrR4hD8bts0s25ZetM4xXEbwoGk0SsQb6YOGnsfoYB9GZOlHzBeoRbYxX707E44pzasxL1Dfh6Vxi2wwYeZM2GysBBNORTqosFS6QP9fUnBhV+lCWD9oYaZseG8prE9CmLH9cpcw/8np45duxUcYHUsXkH9JrfgKM6XlMy6E9bbdwqW+V2FbU1NhvUnWpT6KsKmpB2F9iMloJaQwc0p5ptxT9h3qS4SbjCjCy1AizGQkI8xIJ8Opb8kVD6+T7B5w6lsv0+aOCueOCufOqqA2xrE4ODrSsN/OSJE/t19MwnfIh1uXIn76hc9OqsTzRtmBI/z0Cz8QMgOiNy4N93wlkVUURVEURVFC8AWar4rIrAEdLgAAAABJRU5ErkJggg=='
+description: ''
+behavior_plugins: {  }

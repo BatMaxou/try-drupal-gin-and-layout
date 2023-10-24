@@ -1,0 +1,22 @@
+uuid: 608557f8-215c-4bbc-b2ee-829bcd2e8219
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:39784970-a6c6-4e79-9cec-096577484dec'
+  module:
+    - layout_paragraphs
+id: layout
+label: Layout
+icon_uuid: 39784970-a6c6-4e79-9cec-096577484dec
+icon_default: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaSURBVHgB7ZpNDsIgFITRuPYAuvYuGi+qi+57HuvOmFgvgLzEJk2B2B8oOJ0vmUWhfdMBNi9BKUIIIgejwuhtpCdKalyN9hn5WebPAMZdPTw/MbefRRHBvNElAz+LEMfKp1dqv5XjB3SPd4bwq96sfmu1MBgYHQZGh4HRYWB0GBidIYHPRnejyug0Yn4os/l1O46GqjV2c3znm/fVS+K3uCPtwrdCcmxkVWU1j47vfPNjdziKH/thdBgYHQZGh4HRYWB0GBgd9sOK/TA+7IfVNNgPp4SB0WFgdBgYHQZGh4HR2TjG5LLntvWsVThqldjPtcOlikfZcyymn4VcqpbL1TqwpOYuAz8n8qJcrq4DGNffWruM/Aghf8oH+12cD8uf0aUAAAAASUVORK5CYII='
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_onecol: 'One column'
+      layout_twocol: 'Two column'
+      layout_twocol_bricks: 'Two column bricks'
+      layout_threecol_25_50_25: 'Three column 25/50/25'
+      layout_threecol_33_34_33: 'Three column 33/34/33'
