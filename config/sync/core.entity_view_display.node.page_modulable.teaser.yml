@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page_modulable.field_layout
+    - field.field.node.page_modulable.field_contenu
     - node.type.page_modulable
   module:
     - user
@@ -19,5 +19,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_layout: true
+  field_contenu: true
   langcode: true

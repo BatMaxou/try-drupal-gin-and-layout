@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: OhypfKr4_Eo8XwXg3Sios05lN-LjxOhSdSOSkEN9Ndo
+langcode: fr
+logo:
+  use_default: true
+  path: 'public://MMT_Logo-noir_1.png'
+brand_image:
+  use_default: true
+  path: 'public://V2-NL-600px.png'

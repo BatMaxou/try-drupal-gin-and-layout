@@ -3,7 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.node.page_modulable.field_layout
+    - field.field.node.page_modulable.field_contenu
     - node.type.page_modulable
   module:
     - layout_paragraphs
@@ -19,14 +19,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_layout:
+  field_contenu:
     type: layout_paragraphs
     weight: 121
     region: content
     settings:
       preview_view_mode: default
       nesting_depth: 0
-      require_layouts: 0
+      require_layouts: 1
       empty_message: ''
     third_party_settings: {  }
   langcode:

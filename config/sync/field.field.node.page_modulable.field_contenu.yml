@@ -1,16 +1,16 @@
-uuid: 7b4a7f53-1951-4d57-8622-abd6ed8ee5f2
+uuid: 19f0eaec-c153-4203-85fb-be6eea4ab9b7
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_contenu
-    - paragraphs.paragraphs_type.layout
+    - field.storage.node.field_contenu
+    - node.type.page_modulable
   module:
     - entity_reference_revisions
-id: paragraph.layout.field_contenu
+id: node.page_modulable.field_contenu
 field_name: field_contenu
-entity_type: paragraph
-bundle: layout
+entity_type: node
+bundle: page_modulable
 label: Contenu
 description: ''
 required: true
@@ -20,17 +20,16 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles:
-      layout: layout
+    target_bundles: null
     negate: 1
     target_bundles_drag_drop:
       image:
         weight: 4
         enabled: false
       layout:
-        weight: 3
-        enabled: true
+        weight: 5
+        enabled: false
       texte:
-        weight: 4
+        weight: 6
         enabled: false
 field_type: entity_reference_revisions

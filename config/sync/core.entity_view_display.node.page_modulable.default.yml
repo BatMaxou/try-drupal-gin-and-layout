@@ -3,7 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.node.page_modulable.field_layout
+    - field.field.node.page_modulable.field_contenu
     - node.type.page_modulable
   module:
     - layout_paragraphs
@@ -13,16 +13,12 @@ targetEntityType: node
 bundle: page_modulable
 mode: default
 content:
-  field_layout:
-    type: layout_paragraphs_builder
+  field_contenu:
+    type: layout_paragraphs
     label: visually_hidden
     settings:
       view_mode: default
       link: ''
-      preview_view_mode: default
-      nesting_depth: 0
-      require_layouts: 1
-      empty_message: ''
     third_party_settings: {  }
     weight: 101
     region: content
