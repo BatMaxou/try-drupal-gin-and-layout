@@ -2,7 +2,7 @@ layout_fourcol:
   label: 'Four columns'
   path: layouts/fourcol
   template: layout--fourcol
-  library: custom_layouts/fourcol
+  library: custom_layouts/global_styling
   category: 'Columns: 4'
   default_region: first
   icon_map:

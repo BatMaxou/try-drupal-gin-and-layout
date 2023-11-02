@@ -1,0 +1,8 @@
+name: Custom Paragraph
+type: theme
+description: 'Theme in progress'
+core_version_requirement: ^10
+base theme: olivero
+
+libraries:
+  - custom_paragraph/global-styling
