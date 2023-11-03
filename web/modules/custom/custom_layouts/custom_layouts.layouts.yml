@@ -1,0 +1,53 @@
+layout_fourcol:
+  label: 'Four columns'
+  path: layouts/fourcol
+  template: layout--fourcol
+  library: custom_layouts/fourcol
+  category: 'Columns: 4'
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second, third, fourth]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth
+    bottom:
+      label: Bottom
+      
+layout_special:
+  label: 'Special'
+  path: layouts/special
+  template: layout--special
+  library: custom_layouts/special
+  category: 'Special'
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second, third]
+    - [first, fourth, third]
+    - [first, fifth, fifth]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth
+    fifth:
+      label: Fifth
+    bottom:
+      label: Bottom

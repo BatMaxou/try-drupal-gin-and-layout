@@ -1,0 +1,52 @@
+.layout--special {
+    display: flex;
+    flex-wrap: wrap;
+
+    & .wrapper {
+        width: 100%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .layout__region {
+        flex: 0 1 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $black;
+
+        &--first {
+            flex: 0 1 25%;
+            width: 25%;
+
+            + .wrapper {
+                flex: 0 1 75%;
+                width: 75%;
+
+                .wrapper {
+                    flex: 0 1 100%;
+
+                    .wrapper {
+                        flex: 0 1 50%;
+                    }
+                }
+            }
+        }
+
+        &--second {
+            flex: 0 1 100%;
+        }
+        &--third {
+            flex: 0 1 50%;
+        }
+        &--fourth {
+            flex: 0 1 100%;
+        }
+        &--fifth {
+            flex: 0 1 100%;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+uuid: 52c0e89a-2cf0-428f-a792-f18b9d04fe1e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.liste.field_element_de_la_liste
+    - field.field.paragraph.liste.field_titre
+    - paragraphs.paragraphs_type.liste
+id: paragraph.liste.default
+targetEntityType: paragraph
+bundle: liste
+mode: default
+content:
+  field_element_de_la_liste:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_titre:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

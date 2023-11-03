@@ -1,0 +1,22 @@
+uuid: 332ed220-4242-46be-9c22-97d403a69f5f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - custom_paragraph
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: custom_paragraph_powered
+theme: custom_paragraph
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

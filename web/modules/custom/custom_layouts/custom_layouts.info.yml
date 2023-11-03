@@ -1,0 +1,5 @@
+name: Custom Paragraph Layouts
+description: Add other types of layouts
+package: Custom
+type: module
+core_version_requirement: ^9 || ^10
