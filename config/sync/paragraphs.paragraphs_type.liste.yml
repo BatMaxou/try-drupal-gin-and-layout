@@ -1,0 +1,12 @@
+uuid: 5fef8e56-3a7d-449c-9244-7a1e0448d16c
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:2a951f88-f34b-443b-87ad-1f58a3880d03'
+id: liste
+label: Liste
+icon_uuid: 2a951f88-f34b-443b-87ad-1f58a3880d03
+icon_default: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADMSURBVHgB7ddBCsIwEIXhh+fQtWfRe+jdFMG1C8/iQpcqtBeoGaybpEbRNIHwf/BWIYShZeBJAAAAKGvmsnNp++xd5qqUDXtz6bzc+7Pq2Jft3mQbubd0OUXupo69tVACbeSRJnLvonzDvnLWBxP9p/vxrJhvBj5Gzg6Rs7Wev1ku9tZKCdg2tgXl/z5Xl6kqZdvYFlTTZ6OKhwUAAGXRh0UfDtCHM4Q+7KMPD6APiz4MAABGRB8WfThAH84Q+rCPPjyAPiz6MAAAAAIPlWUmkQCZ6pYAAAAASUVORK5CYII='
+description: ''
+behavior_plugins: {  }

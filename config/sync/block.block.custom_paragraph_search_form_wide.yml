@@ -1,0 +1,23 @@
+uuid: 08157da4-04e2-4b90-a644-12df236d203a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - custom_paragraph
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: custom_paragraph_search_form_wide
+theme: custom_paragraph
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulaire de recherche (large)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

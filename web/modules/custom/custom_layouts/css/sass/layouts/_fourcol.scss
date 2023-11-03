@@ -1,0 +1,20 @@
+.layout--fourcol {
+    display: flex;
+    flex-wrap: wrap;
+
+    .layout__region {
+        flex: 0 1 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $black;
+    }
+}
+
+@media (min-width: 700px) {
+    .layout--fourcol {
+        .layout__region--column {
+            flex: 0 1 25%;
+        }
+    }
+}

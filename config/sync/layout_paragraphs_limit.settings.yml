@@ -1,0 +1,73 @@
+disallowed_types:
+  layout_onecol:
+    content:
+      negate: false
+      paragraph_types:
+        liste: liste
+  layout_twocol:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first:
+      negate: false
+      paragraph_types: {  }
+    second:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_twocol_bricks:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first_above:
+      negate: false
+      paragraph_types: {  }
+    second_above:
+      negate: false
+      paragraph_types: {  }
+    middle:
+      negate: false
+      paragraph_types: {  }
+    first_below:
+      negate: false
+      paragraph_types: {  }
+    second_below:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_threecol_25_50_25:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first:
+      negate: false
+      paragraph_types: {  }
+    second:
+      negate: false
+      paragraph_types: {  }
+    third:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_threecol_33_34_33:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first:
+      negate: false
+      paragraph_types: {  }
+    second:
+      negate: false
+      paragraph_types: {  }
+    third:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
