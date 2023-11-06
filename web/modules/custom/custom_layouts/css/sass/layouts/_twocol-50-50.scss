@@ -1,12 +1,12 @@
-.layout--fourcol {
+.layout--custom-twocol-50-50 {
     display: flex;
     flex-wrap: wrap;
 }
 
 @media (min-width: 700px) {
-    .layout--fourcol {
+    .layout--custom-twocol-50-50 {
         .layout__region--column {
-            flex: 0 1 25%;
+            flex: 0 1 50%;
         }
     }
 }

@@ -1,7 +1,7 @@
 {%
   set classes = [
     'layout',
-    'layout--fourcol',
+    'layout--custom-twocol-50-50',
   ]
 %}
 {% if content %}
@@ -21,18 +21,6 @@
     {% if content.second %}
       <div {{ region_attributes.second.addClass('layout__region', 'layout__region--second', 'layout__region--column') }}>
         {{ content.second }}
-      </div>
-    {% endif %}
-
-    {% if content.third %}
-      <div {{ region_attributes.third.addClass('layout__region', 'layout__region--third', 'layout__region--column') }}>
-        {{ content.third }}
-      </div>
-    {% endif %}
-
-    {% if content.fourth %}
-      <div {{ region_attributes.fourth.addClass('layout__region', 'layout__region--fourth', 'layout__region--column') }}>
-        {{ content.fourth }}
       </div>
     {% endif %}
 

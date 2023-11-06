@@ -2,5 +2,8 @@
 @import 'variables.scss';
 
 // Layouts
+@import 'layout';
+@import 'layouts/onecol';
+@import 'layouts/twocol-50-50';
 @import 'layouts/fourcol';
 @import 'layouts/special';

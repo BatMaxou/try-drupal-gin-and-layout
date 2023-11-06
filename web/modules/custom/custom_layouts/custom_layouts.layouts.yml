@@ -1,3 +1,37 @@
+layout_custom_onecol:
+  label: 'One column (c)'
+  path: layouts/onecol
+  template: layout--custom-onecol
+  library: custom_layouts/layouts
+  category: 'Columns: 1'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+
+layout_custom_twocol_50_50:
+  label: 'Two columns 50/50 (c)'
+  path: layouts/twocol-50-50
+  template: layout--custom-twocol-50-50
+  library: custom_layouts/layouts
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
 layout_fourcol:
   label: 'Four columns'
   path: layouts/fourcol
