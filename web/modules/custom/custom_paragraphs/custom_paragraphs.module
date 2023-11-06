@@ -1,0 +1,6 @@
+<?php
+
+function custom_paragraphs_page_attachments(array &$attachments)
+{
+    $attachments['#attached']['library'][] = 'custom_paragraphs/paragraphs';
+}
