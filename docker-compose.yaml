@@ -11,23 +11,15 @@ services:
     networks:
       - try_gin_paragraph_layout
 
-  php:
+  app:
     depends_on:
       - db
     build:
-      context: ./.boing/docker/php
+      context: .
+      dockerfile: ./.boing/docker/app/drupal/Dockerfile
       args:
+        PHP_VERSION: 8.2
         GD_REQUIRE: 1
-    volumes:
-      - .:/srv
-    networks:
-      - try_gin_paragraph_layout
-
-  web:
-    depends_on:
-      - php
-    build:
-      context: ./.boing/docker/nginx/drupal
     volumes:
       - .:/srv
     networks:

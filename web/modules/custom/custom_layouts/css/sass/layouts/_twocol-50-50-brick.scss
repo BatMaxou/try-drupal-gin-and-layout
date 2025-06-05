@@ -1,0 +1,12 @@
+.layout--custom-twocol-50-50-brick {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 700px) {
+    .layout--custom-twocol-50-50-brick {
+        .layout__region--column {
+            flex: 0 1 50%;
+        }
+    }
+}

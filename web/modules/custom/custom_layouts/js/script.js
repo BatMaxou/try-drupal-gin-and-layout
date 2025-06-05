@@ -1,6 +1,8 @@
 const layouts = [
     'custom-onecol',
     'custom-twocol-50-50',
+    'custom-twocol-50-50-brick',
+    'custom-threecol-33-34-33',
     'fourcol',
     'special',
 ]

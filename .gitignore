@@ -27,3 +27,7 @@
 # Ignore docker compose override files as they are personal
 /docker-compose.override.yaml
 /.editorconfig
+
+# Supervisor
+supervisord.log
+supervisord.pid

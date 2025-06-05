@@ -32,6 +32,81 @@ layout_custom_twocol_50_50:
     bottom:
       label: Bottom
 
+layout_custom_twocol_50_50_brick:
+  label: 'Two columns 50/50 with brick (c)'
+  path: layouts/twocol-50-50-brick
+  template: layout--custom-twocol-50-50-brick
+  library: custom_layouts/layouts
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second]
+    - [brick]
+    - [third, fourth]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    brick:
+      label: Brick
+    third:
+      label: Third
+    fourth:
+      label: Fourth
+    bottom:
+      label: Bottom
+
+layout_custom_threecol_33_34_33:
+  label: 'Three columns 33/34/33 (c)'
+  path: layouts/threecol-33-34-33
+  template: layout--custom-threecol-33-34-33
+  library: custom_layouts/layouts
+  category: 'Columns: 3'
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second, third]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    bottom:
+      label: Bottom
+
+layout_custom_threecol_33_34_33:
+  label: 'Three columns 33/34/33 (c)'
+  path: layouts/threecol-33-34-33
+  template: layout--custom-threecol-33-34-33
+  library: custom_layouts/layouts
+  category: 'Columns: 3'
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second, third]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    bottom:
+      label: Bottom
+
 layout_fourcol:
   label: 'Four columns'
   path: layouts/fourcol

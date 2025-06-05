@@ -1,5 +1,5 @@
-DOCKER_ENABLED=1
+DOCKER_ENABLED?=1
 
--include ./.env
+-include .env
 
-include ./.boing/makes/drupal.mk
+include .boing/makes/drupal.mk
